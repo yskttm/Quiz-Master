@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # root to: 'public/404.html'
+  root 'questions#index'
+  resources :questions
 end
