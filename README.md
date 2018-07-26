@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Quiz Master
 
-Things you may want to cover:
+Quiz master is web application that you can create, update, delete and answer quizz.
 
-* Ruby version
+# Set up
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. git clone git@github.com:yskttm/Quiz-Master.git
+1. bin/set_up
