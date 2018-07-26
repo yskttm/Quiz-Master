@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-  before_action :set_question, only: [:show, :edit, :update, :destroy]
+  before_action :set_question, only: [:show, :edit, :update, :destroy, :answer]
 
   # GET /questions
   def index
@@ -43,6 +43,10 @@ class QuestionsController < ApplicationController
   def destroy
     @question.destroy
     redirect_to questions_url, notice: 'Question was successfully destroyed.'
+  end
+
+  def answer
+    @result = @question.correct?(params[:answer])
   end
 
   private

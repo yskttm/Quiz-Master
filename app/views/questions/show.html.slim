@@ -1,8 +1,12 @@
 p#notice = notice
 
 p
-  strong Contens:
-  = @question.contens
+  strong Let's answer the quiz
+= @question.contens
+
+= form_tag answer_question_path(@question)
+  = text_field_tag :answer, '', placeholder: "answer"
+  = submit_tag "Submit answer"
 
 => link_to 'Edit', edit_question_path(@question)
 '|

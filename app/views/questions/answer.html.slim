@@ -1,0 +1,12 @@
+- if @result
+  p
+    | Correct !!
+  p
+    = link_to 'Try Another Question', questions_path
+- else
+  p
+    | Incorrect answer
+  p
+    = link_to 'Retry', question_path(@question)
+  p
+    = link_to 'Try Another Question', questions_path
