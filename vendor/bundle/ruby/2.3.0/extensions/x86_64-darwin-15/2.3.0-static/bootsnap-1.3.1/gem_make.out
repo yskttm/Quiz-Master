@@ -1,0 +1,15 @@
+current directory: /Users/yskttm/program/rails/Quiz-Master/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.3.1/ext/bootsnap
+/Users/yskttm/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20180725-11007-1aufpy5.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yskttm/program/rails/Quiz-Master/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.3.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/yskttm/program/rails/Quiz-Master/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.3.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/yskttm/program/rails/Quiz-Master/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.3.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20180725-11007-1u9o9w5/bootsnap
